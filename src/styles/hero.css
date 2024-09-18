@@ -1,0 +1,111 @@
+#hero {
+    background: var(--background-color);
+    border-top: 0.125rem solid #e4e4e4;
+    height: 90vh;
+    display: flex;
+    border: none;
+}
+
+#hero>img {
+    position: absolute;
+    right: 0;
+    height: 60%;
+    padding-left: 30%;
+}
+
+#hero p {
+    color: var(--second-text-color);
+}
+
+#hero .content {
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    margin-top: auto;
+    text-align: center;
+    gap: 1.75rem;
+}
+
+#hero .content>div {
+    width: fit-content;
+    align-self: center;
+    margin-bottom: 20%;
+}
+
+.content p {
+    width: 80%;
+    align-self: center;
+}
+
+.content {
+    gap: 2.5rem;
+}
+
+.content>div :first-child {
+    width: 10.625rem;
+}
+
+.content p {
+    width: 80%;
+    align-self: center;
+}
+
+.content p:first-of-type {
+    color: var(--primary-color);
+    font-weight: var(--fw-bold);
+}
+
+.hero-infos{
+    gap: .765rem;
+    width: 100%;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    padding-inline: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.title{
+    transition: .3s;
+    font-size: 4rem;
+}
+
+.container-buttons{
+    display: flex;
+    gap: 0.765rem;
+}
+
+@media (max-width: 1380px){
+  .small-rectangle{
+    display: none;      
+    transition: .3s;
+  }
+}
+
+@media (max-width: 1150px){
+    .title{
+        font-size: 3rem;
+        transition: .3s;
+    }
+}
+
+@media (max-width: 900px){
+    .title{
+        font-size: 2.5rem;
+        transition: .3s;
+    }
+}
+
+@media (max-width: 425px){
+    .container-buttons{
+        flex-direction: column;
+    }
+    .title{
+        text-align: center;
+    }
+
+    .hero-infos p{
+        text-align: center;
+    }
+}
