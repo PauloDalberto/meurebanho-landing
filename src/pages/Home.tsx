@@ -6,7 +6,7 @@ import Button from "../components/Button";
 
 export default function Home() {
     return (
-        <section id="hero" className="home-container">
+        <section id="home" className="home-container">
             <img src={HeroRectangleOne} alt="Retangulo dois tela inicial" className="big-rectangle"/>
             <div className="container hero-infos">
                 <p className="desktop-only">Olá, venha conhecer a</p>

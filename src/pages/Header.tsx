@@ -16,7 +16,7 @@ export default function Header() {
         <div className="tab-nav">
           <ul className="flex gap-1">
             <li>
-              <a href="#">Home</a>
+              <a href="#home">Home</a>
             </li>
             <li>
               <a href="#solution">Soluções</a>
