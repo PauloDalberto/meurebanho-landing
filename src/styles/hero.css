@@ -1,4 +1,4 @@
-#hero {
+#home {
     background: var(--background-color);
     border-top: 0.125rem solid #e4e4e4;
     height: 90vh;
@@ -6,18 +6,18 @@
     border: none;
 }
 
-#hero>img {
+#home>img {
     position: absolute;
     right: 0;
     height: 60%;
     padding-left: 30%;
 }
 
-#hero p {
+#home p {
     color: var(--second-text-color);
 }
 
-#hero .content {
+#home .content {
     z-index: 1;
     display: flex;
     flex-direction: column;
@@ -26,7 +26,7 @@
     gap: 1.75rem;
 }
 
-#hero .content>div {
+#home .content>div {
     width: fit-content;
     align-self: center;
     margin-bottom: 20%;
