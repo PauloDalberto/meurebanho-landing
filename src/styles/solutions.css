@@ -26,63 +26,9 @@
   font-size: 4rem;
 }
 
-.card{
-  display: flex;
-  margin-top: 72px;
-  justify-content: space-between;
-  gap: 16px;
-  padding-inline: 16px;
-}
-
-.product{
-  background-color: var(--light-gray);
-  padding-top: 64px;
-  padding-inline: 24px;
-  height: 380px;
-  width: 400px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 8px;
-  border-radius: 8px;
-
-}
-
-.icon{
-  color: var(--primary-color);
-  width: 48px;
-  height: 48px;
-}
-
-@media (max-width: 1150px){
-  .card{
-    justify-content: start;
-    flex-wrap: wrap;
-  }
-}
-
-@media (max-width: 850px){
-  .card{
-    flex-direction: column;
-    align-items: center;
-  }
-}
-
 @media (max-width: 600px){
   .card-texts h1{
     font-size: 3rem;
     transition: .3s;
-  }
-}
-
-@media(max-width: 450px){
- .product{
-  width: 100%;
- }
-}
-
-@media (max-width: 375px){
-  .icon{
-    display: none;
   }
 }

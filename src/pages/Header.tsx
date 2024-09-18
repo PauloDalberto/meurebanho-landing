@@ -4,6 +4,7 @@ import Close from "../assets/close.svg";
 import "../styles/header.css";
 import "../styles/utility.css";
 import Button from "../components/Button";
+import Nav from "../components/Nav";
 
 export default function Header() {
   const [showMobileMenu, setShowMobileMenu] = useState(false);
@@ -14,20 +15,7 @@ export default function Header() {
         <img src={'./meu-rebanho.svg'} alt="Logo Meu Rebanho" className="logo" width={200} height={90} />
 
         <div className="tab-nav">
-          <ul className="flex gap-1">
-            <li>
-              <a href="#home">Home</a>
-            </li>
-            <li>
-              <a href="#solution">Soluções</a>
-            </li>
-            <li>
-              <a href="#testimonials">Depoimentos</a>
-            </li>
-            <li>
-              <a href="#footer">Contato</a>
-            </li>
-          </ul>
+          <Nav horizontal/>
         </div>
 
         <div className="buttons flex items-center ml-lg gap-2">
@@ -41,28 +29,7 @@ export default function Header() {
           {showMobileMenu ? (
             <div className="mobile-menu-content">
               <div className="container flex">
-                <ul>
-                  <li>
-                    <a href="#">Home</a>
-                  </li>
-                  <li>
-                    <a href="#solution">Soluções</a>
-                  </li>
-                  <li>
-                    <a href="#testimonials">Depoimentos</a>
-                  </li>
-                  <li>
-                    <a href="#pricing">Preços</a>
-                  </li>
-                  <li>
-                    <a href="#contact">Contato</a>
-                  </li>
-                  <li>
-                    <a className="reverse-color" href="#">
-                      Login
-                    </a>
-                  </li>
-                </ul>
+                <Nav mobile/>
                 <span
                   onClick={() => setShowMobileMenu(!showMobileMenu)}
                   className="btn-wrapper"

@@ -1,3 +1,4 @@
+import Nav from '../components/Nav';
 import '../styles/footer.css';
 
 export default function Footer(){
@@ -16,17 +17,7 @@ export default function Footer(){
       <div className="features">
           <h2>Navegação</h2>
           <div className='features-itens'>
-            <ul>
-              <li>
-                <a href="#">Home</a>
-              </li>
-              <li>
-                <a href="#solution">Soluções</a>
-              </li>
-              <li>
-                <a href="#testimonials">Depoimentos</a>
-              </li>
-            </ul>
+            <Nav />
           </div>
         </div>
         <div className="features">
@@ -42,6 +33,7 @@ export default function Footer(){
           <div className='features-itens'>
             <span>Marketing</span>
             <span>Análise de propriedade</span>
+            <span>Análise de custo</span>
             <span>Boot discord</span>
           </div>
         </div>
