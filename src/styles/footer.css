@@ -39,13 +39,14 @@
   gap: 12px;
 }
 
-.features-itens{
+.features-itens, .features-itens ul{
   display: flex;
   flex-direction: column;
   gap: 8px;
 }
 
-.features-itens span{
+.features-itens span, a{
+  font-size: 1rem;
   font-weight: bold;
   cursor: pointer;
   color: var(--second-text-color);
@@ -59,8 +60,8 @@
 }
 
 @media (max-width: 750px){
-  .footer{
-    flex-direction: column;
-    gap: 32px;
+  .all-features{
+    flex-wrap: wrap;
+    row-gap: 32px;
   }
 }

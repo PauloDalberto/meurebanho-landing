@@ -25,10 +25,7 @@ export default function Header() {
               <a href="#testimonials">Depoimentos</a>
             </li>
             <li>
-              <a href="#pricing">Preços</a>
-            </li>
-            <li>
-              <a href="#contact">Contato</a>
+              <a href="#footer">Contato</a>
             </li>
           </ul>
         </div>

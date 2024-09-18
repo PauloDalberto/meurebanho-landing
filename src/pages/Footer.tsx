@@ -2,7 +2,7 @@ import '../styles/footer.css';
 
 export default function Footer(){
   return(
-    <footer className='footer'>
+    <footer className='footer' id='footer'>
       <div className='social-medias'>
         <h2>Contate-nos</h2>
         <div className="medias">
@@ -16,9 +16,17 @@ export default function Footer(){
       <div className="features">
           <h2>Navegação</h2>
           <div className='features-itens'>
-            <span>Sobre nós</span>
-            <span>Faça parte do time</span>
-            <span>Blog</span>
+            <ul>
+              <li>
+                <a href="#">Home</a>
+              </li>
+              <li>
+                <a href="#solution">Soluções</a>
+              </li>
+              <li>
+                <a href="#testimonials">Depoimentos</a>
+              </li>
+            </ul>
           </div>
         </div>
         <div className="features">

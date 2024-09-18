@@ -2,7 +2,7 @@
   margin-top: 72px;
   height: 100vh;
   background-color: var(--terciary-color);
-
+  padding-block: 12px;
 }
 
 .clients{
