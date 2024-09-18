@@ -1,9 +1,9 @@
 import { CheckCircleIcon } from '@heroicons/react/24/outline'
-import '../styles/card.css'
+import '../styles/solutions.css';
 
 export default function Card(){
   return(
-    <section className="card-container">
+    <section className="card-container" id='solution'>
       <div className='card-texts'>
         <span>Soluções</span>
         <h1>Para a sua gestão de gado leiteiro</h1>
