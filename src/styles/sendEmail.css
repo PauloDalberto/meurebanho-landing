@@ -1,5 +1,5 @@
 .sendEmail-container{
-  max-width: 1250px;
+  max-width: 800px;
   margin: 0 auto;
   height: 90vh;
   padding-inline: 16px;
@@ -23,6 +23,7 @@
 
 .sendEmail-header h1{
   font-size: 42px;
+  text-align: center;
 }
 
 .sendEmail-header p{
