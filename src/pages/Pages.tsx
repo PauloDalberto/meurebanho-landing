@@ -4,6 +4,7 @@ import Header from "./Header";
 import Home from "./Home";
 import Footer from "./Footer";
 import Plans from "./Plans";
+import SendEmail from "./SendEmail";
 
 export default function Pages(){
   return(
@@ -13,6 +14,7 @@ export default function Pages(){
       <Solutions />
       <Clients />
       <Plans />
+      <SendEmail />
       <Footer />
     </>
   )

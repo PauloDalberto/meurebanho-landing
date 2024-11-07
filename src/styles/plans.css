@@ -100,7 +100,6 @@ hr {
   margin-bottom: -40px;
 }
 
-
 .decoration-plans{
   display: flex;
   justify-content: center;
@@ -111,7 +110,6 @@ hr {
   color: #FFF;
   font-weight: bold;
 }
-
 
 @media (max-width: 1000px){
   .price-button p{
