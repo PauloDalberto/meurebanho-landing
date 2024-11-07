@@ -20,6 +20,9 @@ export default function Nav({ horizontal, mobile }: INavProps){
       <li>
         <a href="#footer">Contato</a>
       </li>
+      <li>
+        <a href="#plans">Planos</a>
+      </li>
       {mobile && 
         <li>
           <a className="reverse-color" href="#">
