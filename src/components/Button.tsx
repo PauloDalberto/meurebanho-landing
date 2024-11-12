@@ -1,6 +1,9 @@
+import { InputHTMLAttributes } from "react";
 import "../styles/buttons.css"
 
-interface IButtonProps {
+type Props = InputHTMLAttributes<HTMLInputElement>;
+
+interface IButtonProps extends Props{
     text: string;
     secondary?: boolean;
 }
