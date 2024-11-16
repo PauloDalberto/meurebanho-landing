@@ -35,7 +35,6 @@ export default function SendEmail() {
       console.error('Erro na requisição:', error);
     }
   };
-  
 
   return (
     <div className='sendEmail-container' id='sendEmail'>

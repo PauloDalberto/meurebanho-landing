@@ -18,10 +18,13 @@ export default function Nav({ horizontal, mobile }: INavProps){
         <a href="#testimonials">Depoimentos</a>
       </li>
       <li>
-        <a href="#footer">Contato</a>
+        <a href="#plans">Planos</a>
       </li>
       <li>
-        <a href="#plans">Planos</a>
+        <a href="#sendEmail">Contato</a>
+      </li>
+      <li>
+        <a href="#footer">Mais</a>
       </li>
       {mobile && 
         <li>

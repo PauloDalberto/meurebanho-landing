@@ -6,7 +6,7 @@ export default defineConfig({
   server: {
     proxy: {
       '/api': {
-        target: 'https://us-central1-projeto-arch-440022.cloudfunctions.net/function-1',
+        target: 'https://us-central1-projeto-arch-440022.cloudfunctions.net/function-2',
         changeOrigin: true,
         rewrite: (path) => path.replace(/^\/api/, ''),
       },
