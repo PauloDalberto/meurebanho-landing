@@ -1,0 +1,60 @@
+.ToastRootSuccess {
+  background-color: var(--background-color);
+  border: 2px solid var(--primary-color); 
+  border-radius: 6px;
+  box-shadow: 
+    rgba(0, 0, 0, 0.35) 0px 10px 38px -10px,
+    rgba(0, 0, 0, 0.2) 0px 10px 20px -15px;
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  max-width: 400px;
+  margin: auto;
+  --viewport-padding: 25px;
+  position: fixed;
+  bottom: 25px;
+  left: 40%; 
+}
+
+.ToastTitleSuccess {
+  font-weight: 600;
+  color: var(--text-color);
+  font-size: 15px;
+  margin: 0;
+  flex: 1; 
+}
+
+.ToastActionSuccess {
+  margin: 0;
+}
+
+.ButtonSuccess {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--primary-color); 
+  color: var(--light-text-color); 
+  font-weight: 600;
+  font-size: 14px;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out, transform 0.1s ease-in-out;
+}
+
+.ButtonSuccess:hover {
+  background-color: var(--secondary-color); 
+  transform: scale(1.05); 
+}
+
+.ButtonSuccess:focus {
+  outline: 2px solid var(--secondary-color); 
+}
+
+.ButtonSuccess:active {
+  background-color: var(--terciary-color); 
+  transform: scale(0.95); 
+}
